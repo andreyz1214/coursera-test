@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    <body>
+         <!-- header start -->
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/0.jpg">
+            <p>Andrey Zapata</p>
+        </div>
+        <!-- header end -->
+        
+        <!-- About Me section start -->
+        <div class="section">
+            <h1><span>About Me</span></h1>
+            <p>
+               Hola soy <b>Andrey</b>. aprender a programar y diseño de paginas web ha sido un reto personal y para mi completar esto es un gran reto,  <em>me da las herramientas para ser mejor</em> aprendiendo todo esto espero poder conseguir un buen empleo y darle una calidad de vida a mi familia. Gracias a herramientas como: <strong>SoloLearn</strong> que mediante una interfaz amigable y con juegos se aprende de una mejor forma.
+            </p>
+            <p class="quote">"aprende algo nuevo cada dia"</p>
+        </div>
+        <!-- About Me section end -->
+        
+        <!--aca empieza la seccion de "mi horario"-->
+         <div class="section">
+             <h1><span>Calendario de aprendizaje</span></h1>
+             <table>
+                 <tr>
+                     <th>Dia</th>
+                     <th>Lun</th>
+                     <th>Mar</th>
+                     <th>Mie</th>
+                     <th>Jue</th>
+                     <th>Vie</th>
+                 </tr>
+                 <tr>
+                     <td>6:00-8:00</td>
+                     <td class="selected">Aprender</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+                 <tr>
+                     <td>8:30-10:30</td>
+                     <td></td>
+                     <td class="selected">Practicar</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+                 <tr>
+                     <td>11:00-1:00</td>
+                     <td></td>
+                     <td></td>
+                     <td class="selected">Investigar</td>
+                     <td></td>
+                     <td></td>      
+                 </tr> 
+                 <tr>
+                     <td>1:00-2:30</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td class="selected">Almuerzo</td>
+                     <td></td>
+                 </tr>
+                 <tr>
+                     <td>3:00-5:00</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>  
+                     <td class="selected">Discutir</td>
+                 </tr>
+             </table>
+         </div>
+         <!--final de la seccion "mi calendario"-->
+         
+         <!-- empieza la seccion "mis habilidades" -->
+        <div class="section">
+            <h1><span>Mis Habilidades</span></h1>
+            <ul>
+                <li><a href="https://www.sololearn.com/Course/HTML/?ref=app" target="_blank">HTML</a></li>
+                <li><a href="https://www.sololearn.com/Course/CSS/?ref=app" target="_blank">CSS</a></li>
+                <li><a href="https://www.sololearn.com/Course/JavaScript/?ref=app" target="_blank">JavaScript</a></li>
+                <li><a href="https://www.sololearn.com/Course/Python/" target="_blank">Python</a></li>
+            </ul>
+        </div>
+        <!-- termina seccion mis habilidades -->
+        
+        <!--empieza la seccion "multimedia" -->
+        <div class="seccion">
+            <h1><span>Mi Multimedia</span></h1>
+            <iframe height="150" width="300" src="https://www.youtube.com/embed/BUKHMGiW_rY" allowfullscreen
+                frameborder="0"></iframe>
+        </div>
+        <!-- aca termina seccion "multimedia" -->
+        
+        <!-- aca empieza la seccion forma-->
+        <div class="section">
+             <h1><span>Escribeme</span></h1>
+             <form>
+                 <input name="name" type="text" /><br/>
+                 <input name="email" type="email" /><br/>
+                 <textarea name="message"></textarea>
+                 <input type="submit" value="ENVIAR" class="submit" /> 
+             </form>
+         </div>
+         <!-- aca termina la seccion forma-->
+         
+         <!-- Empieza la seccion "Redes" -->
+        <div class="section" id="contacts">
+            <h1><span>Sigue Me</span></h1>
+            <div>
+                <a href="https://www.sololearn.com/" target="_blank">
+                    <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+                </a>
+                <a href="#">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                </a>
+                <a href="#">
+                    <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+                </a>
+            </div>
+            &copy; 2020 proyecto Mi Blog. Todos los Derechos Reservados.
+        </div>
+        <!-- Termina la seccion "Redes" -->
+        
+    </body>
+</html>

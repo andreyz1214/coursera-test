@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+     <head>
+          <title>Mi blog</title>
+          <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+     </head> 
+     
+     <body>
+         <!--aca empieza la seccion de "mi horario"-->
+         <div class="section">
+             <h1><span>Calendario de aprendizaje</span></h1>
+             <table>
+                 <tr>
+                     <th>Dia</th>
+                     <th>Lun</th>
+                     <th>Mar</th>
+                     <th>Mie</th>
+                     <th>Jue</th>
+                     <th>Vie</th>
+                 </tr>
+                 <tr>
+                     <td>6:00-8:00</td>
+                     <td class="selected">Aprender</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+                 <tr>
+                     <td>8:30-10:30</td>
+                     <td></td>
+                     <td class="selected">Practicar</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+                 <tr>
+                     <td>11:00-1:00</td>
+                     <td></td>
+                     <td></td>
+                     <td class="selected">Investigar</td>
+                     <td></td>
+                     <td></td>      
+                 </tr> 
+                 <tr>
+                     <td>1:00-2:30</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td class="selected">Almuerzo</td>
+                     <td></td>
+                 </tr>
+                 <tr>
+                     <td>3:00-5:00</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>  
+                     <td class="selected">Discutir</td>
+                 </tr>
+             </table>
+         </div>
+         <!--final de la seccion "mi calendario"-->
+
+     </body>
+</html>        

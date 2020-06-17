@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    <body>
+         <!-- aca empieza la seccion forma-->
+        <div class="section">
+             <h1><span>Contacta me</span></h1>
+             <form>
+                 <input name="name" type="text" /><br/>
+                 <input name="email" type="email" /><br/>
+                 <textarea name="message"></textarea>
+                 <input type="submit" value="ENVIAR" class="submit" /> 
+             </form>
+         </div>
+         <!-- aca termina la seccion forma-->
+    </body>
+</html>
